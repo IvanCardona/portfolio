@@ -4,10 +4,9 @@ body {
     background-color: #121212; /* Color de fondo principal */
     color: #ffffff; /* Color de texto principal */
 }
-
-/* Agrega estilos adicionales según tus necesidades */
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffffff; /* Color de texto para enlaces en la barra de navegación */
+a {
+    text-decoration: none;
+    color: #62ffc7;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -22,11 +21,9 @@ body {
     background-color: #1f1f1f; /* Color de fondo para secciones claras */
     color: #ffffff; /* Color de texto para secciones claras */
 }
-
 .navbar-dark .navbar-brand {
-    color: #ffffff; /* Color del texto para la marca en la barra de navegación */
+    color: #62ffc7;
 }
-
 .navbar-dark .navbar-toggler-icon {
     background-color: #ffffff; /* Color del icono del botón de navegación en la barra */
 }
@@ -45,19 +42,45 @@ body {
 .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
+    
 }
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #62ffc7;
+}
+
+.nav-link {
+    color: #62ffc7;
+}
+/* Añadir estilos para los íconos en las pestañas */
+.nav-link i {
+    margin-right: 5px; /* Ajusta el espacio entre el ícono y el texto */
+    transition: transform 0.3s ease-in-out; /* Aplica transición al ícono */
+}
+
+/* Añadir animación al pasar el mouse sobre las pestañas */
+.nav-link:hover i {
+    transform: rotate(360deg); /* Gira el ícono 360 grados al pasar el mouse */
+}
+
+
+
 
 .navbar-dark .navbar-toggler-icon {
     outline: none;
 }
 
+.nav-link:focus, .nav-link:hover {
+    color: #39b288;
+}
+
 .profile-img {
     max-width: 100%;
-    max-width: 150px;
+    max-width: 130px;
     height: auto;
     border-radius: 50%; /* Para mantener la imagen redonda */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     transition: transform 0.3s ease-in-out; /* Agrega una transición a la propiedad transform */
+    border: 3px solid #62ffc7;
 }
 .profile-img:hover {
     transform: translateX(-20px);
