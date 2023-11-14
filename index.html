@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ivan Cardona - Portafolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tu archivo de estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Ivan Cardona</a>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+    </div>
+</nav>
+<section id="welcome" class=" py-3">
+    <div class="container text-center d-flex flex-row-reverse align-items-center">
+        <div class="flex-grow-1">
+            <h3 class="display-6">Bienvenido a mi Portafolio</h3>
+            <p class="lead">Programador Web Fullstack</p>
+        </div>
+        <img src="img/perfil.jpeg" alt="Fotografía de Ivan Cardona" class="img-fluid rounded-circle mb-4 profile-img">
+    </div>
+</section>
+<!-- <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#about">Acerca de mí</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#experience">Experiencia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#projects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+    </ul>
+</div>
+ -->
+<!-- Contenido de las pestañas -->
+<div class="container mt-4">
+    <ul class="nav nav-tabs" id="myTabs">
+        <li class="nav-item">
+            <a class="nav-link active" id="about-tab" data-bs-toggle="tab" href="#about">Acerca de mí</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience">Experiencia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="projects-tab" data-bs-toggle="tab" href="#projects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact">Contacto</a>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-2">
+        <!-- Contenido de cada pestaña -->
+        <div class="tab-pane fade show active" id="about">
+            <section class="py-5">
+                <!-- Contenido de la sección Acerca de mí -->
+                <!-- ... -->
+                <p class="lead">
+                    ¡Hola! Soy Ivan Cardona, un Programador Web Fullstack de nivel medio con experiencia en el desarrollo de sistemas robustos. Actualmente, desempeño el rol de Analista de Programación en la Universidad Autónoma de Aguascalientes, donde trabajo a tiempo completo desde marzo de 2023.
+                </p>
+            </section>
+        </div>
+        <div class="tab-pane fade" id="experience">
+            <section>
+                <!-- Contenido de la sección Experiencia -->
+                <!-- ... -->
+                <div class="container">
+                    <h2 class="display-5">Experiencia Laboral</h2>
+            
+                    <!-- Detalles de la experiencia laboral -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5>Analista de Programación en Universidad Autónoma de Aguascalientes</h5>
+                            <p>
+                                <em>mar. 2023 - Actualidad (9 meses)</em><br>
+                                Ubicación: Aguascalientes, Aguascalientes, México (Presencial)
+                            </p>
+                            <ul>
+                                <li>Desarrollo de sistemas web robustos utilizando C#, Bootstrap, PL/SQL, jQuery, ASP.NET, JSON, HTML5, JavaScript.</li>
+                                <li>Participación en proyectos que contribuyen al desarrollo de sistemas eficientes y experiencia de usuario excepcional.</li>
+                                <!-- Agrega más detalles según tu experiencia -->
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>Desarrollador Web en Intellsoft</h5>
+                            <p>
+                                <em>oct. 2019 - mar. 2023 (3 años 6 meses)</em><br>
+                                Ubicación: Aguascalientes, México
+                            </p>
+                            <ul>
+                                <li>Contribución al desarrollo de herramientas para sistemas implementados en universidades.</li>
+                                <li>Amplia experiencia en el manejo de diversas herramientas de software.</li>
+                                <!-- Agrega más detalles según tu experiencia -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tab-pane fade" id="projects">
+            <section>
+                <!-- Contenido de la sección Proyectos -->
+                <!-- ... -->
+                <div class="container">
+                    <h2 class="display-5">Proyectos Destacados</h2>
+            
+                    <!-- Detalles de proyectos destacados -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5>Sistema de Gestión Académica</h5>
+                            <p>
+                                Desarrollo de un sistema integral de gestión académica para la Universidad Autónoma de Aguascalientes.
+                            </p>
+                            <ul>
+                                <li>Implementación de funcionalidades clave, como registro de calificaciones, control de asistencia y gestión de horarios.</li>
+                                <li>Tecnologías utilizadas: ASP.NET, C#, SQL Server, HTML5, CSS3, JavaScript.</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>Plataforma de Aprendizaje en Línea</h5>
+                            <p>
+                                Desarrollo de una plataforma de aprendizaje en línea para facilitar la educación a distancia.
+                            </p>
+                            <ul>
+                                <li>Integración de herramientas de interactividad y evaluación para mejorar la experiencia del usuario.</li>
+                                <li>Tecnologías utilizadas: PHP, Laravel, MySQL, HTML5, CSS3, JavaScript.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tab-pane fade" id="contact">
+            <section>
+                <!-- Contenido de la sección Contacto -->
+                <!-- ... -->
+                <div class="container">
+                    <h2 class="display-5">Contacto</h2>
+            
+                    <!-- Información de contacto -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5>Ivan Cardona</h5>
+                            <p class="mb-2">
+                                <i class="fas fa-envelope"></i> <a href="mailto:ivan.cardona@edu.uaa.mx">ivan.cardona@edu.uaa.mx</a>
+                            </p>
+                            <p class="mb-2">
+                                <i class="fas fa-phone"></i> <a href="tel:+4492314615">449-231-4615</a>
+                            </p>
+                            <p class="mb-2">
+                                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ivan-arturo-cardona-flores-522434102" target="_blank">LinkedIn</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS y jQuery (requeridos para algunos componentes de Bootstrap) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+<!-- Tu archivo de scripts jQuery o personalizados -->
+
+</body>
+</html>

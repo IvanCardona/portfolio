@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    background-color: #121212; /* Color de fondo principal */
+    color: #ffffff; /* Color de texto principal */
+}
+
+/* Agrega estilos adicionales según tus necesidades */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Color de texto para enlaces en la barra de navegación */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff; /* Color del icono del botón de navegación en la barra */
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #ffffff; /* Color del borde del botón de navegación en la barra */
+}
+
+.bg-light {
+    background-color: #1f1f1f; /* Color de fondo para secciones claras */
+    color: #ffffff; /* Color de texto para secciones claras */
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff; /* Color del texto para la marca en la barra de navegación */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff; /* Color del icono del botón de navegación en la barra */
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #ffffff; /* Color del borde del botón de navegación en la barra */
+}
+.navbar {
+    transition: background-color 0.3s;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    outline: none;
+}
+
+.profile-img {
+    max-width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%; /* Para mantener la imagen redonda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición a la propiedad transform */
+}
+.profile-img:hover {
+    transform: translateX(-20px);
+}
+
+#about p {
+    font-size: 1.1rem;
+}
+
+#experience,
+#projects,
+#contact {
+    margin-top: 50px;
+}
+
+.display-5 {
+    font-size: 2rem;
+}
