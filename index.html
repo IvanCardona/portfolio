@@ -164,7 +164,7 @@
                 </div>
             </section>
         </div>
-        <div class="tab-pane fade" id="projects">
+        <div class="tab-pane fade" id="projects" >
             <section>
                   <!-- Sección de descarga de la app -->
                     <div class="row mt-5">
@@ -187,30 +187,6 @@
                 <!-- ... -->
                 <div class="container">
                     <h2 class="display-5">Proyectos Destacados</h2>
-            
-                    <!-- Detalles de proyectos destacados -->
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h5>Sistema de Gestión Académica</h5>
-                            <p>
-                                Desarrollo de un sistema integral de gestión académica para la Universidad Autónoma de Aguascalientes.
-                            </p>
-                            <ul>
-                                <li>Implementación de funcionalidades clave, como registro de calificaciones, control de asistencia y gestión de horarios.</li>
-                                <li>Tecnologías utilizadas: ASP.NET, C#, SQL Server, HTML5, CSS3, JavaScript.</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5>Plataforma de Aprendizaje en Línea</h5>
-                            <p>
-                                Desarrollo de una plataforma de aprendizaje en línea para facilitar la educación a distancia.
-                            </p>
-                            <ul>
-                                <li>Integración de herramientas de interactividad y evaluación para mejorar la experiencia del usuario.</li>
-                                <li>Tecnologías utilizadas: PHP, Laravel, MySQL, HTML5, CSS3, JavaScript.</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </section>
         </div>
@@ -248,3 +224,13 @@
 
 </body>
 </html>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      // Verificar si el hash en la URL es '#projects'
+      if (window.location.hash === "#projects") {
+          // Asegurarse de que la pestaña con id "projects" sea visible
+          document.querySelector('#projects').classList.add('show', 'active');
+      }
+  });
+</script>
