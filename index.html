@@ -229,8 +229,9 @@
   document.addEventListener("DOMContentLoaded", function () {
       // Verificar si el hash en la URL es '#projects'
       if (window.location.hash === "#projects") {
-          // Asegurarse de que la pestaña con id "projects" sea visible
-          document.querySelector('#projects').classList.add('show', 'active');
+          // Activar la pestaña de 'Proyectos' de forma automática
+          var myTab = new bootstrap.Tab(document.getElementById('projects-tab'));
+          myTab.show();
       }
   });
 </script>
