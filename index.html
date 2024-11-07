@@ -226,6 +226,7 @@
 </html>
 
 <script>
+     const downloadLink = document.getElementById('downloadLink');
   document.addEventListener("DOMContentLoaded", function () {
       // Verificar si el hash en la URL es '#projects'
       if (window.location.hash === "#projects") {
@@ -233,5 +234,20 @@
           var myTab = new bootstrap.Tab(document.getElementById('projects-tab'));
           myTab.show();
       }
+      
   });
+ downloadLink.addEventListener('click', (event) => {
+            sendWebhookNotification(); // Llama a la función para enviar la notificación
+        });
+    function sendWebhookNotification() {
+            const webhookUrl = 'https://webhook.site/4a654a5e-8732-44c3-815d-59b3814da8a3';
+            fetch(webhookUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: "Alguien hizo clic en el botón", count: clickCount })
+            })
+            .then(response => console.log("Notificación enviada"))
+            .catch(error => console.error("Error al enviar notificación", error));
+        }
+    
 </script>
