@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapalu Store</title>
+
+    <!-- Bootstrap CSS Local -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Local -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-leaf me-2"></i>Mapalu Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cotizacion.html"><i class="fas fa-calculator me-1"></i>Cotización</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-sign-out-alt me-1"></i>Salir</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="img/logo.png" alt="Mapalu Store" style="height: 50px;">
+            </div>
+            <div class="search-bar d-flex">
+                <input type="text" class="form-control me-2" placeholder="Buscar productos...">
+                <button class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Lista de Categorías -->
+        <div class="container text-center">
+            <h1 class="mb-0">Sistema de Cotización</h1>
+            <p class="text-muted">Seleccione una categoría para iniciar una cotización</p>
+        </div>
+        <section>
+            <h2 class="text-center mb-4"><i class="fas fa-list me-2"></i>Categorías Disponibles</h2>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-3 mb-3">
+                    <button class="btn btn-outline-primary w-100 py-3">
+                        <i class="fas fa-seedling me-2"></i>Jardines Verticales
+                    </button>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <button class="btn btn-outline-success w-100 py-3">
+                        <i class="fas fa-tree me-2"></i>Techos y Colgantes
+                    </button>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <button class="btn btn-outline-info w-100 py-3">
+                        <i class="fas fa-paint-roller me-2"></i>Decoración Exterior
+                    </button>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <button class="btn btn-outline-warning w-100 py-3">
+                        <i class="fas fa-leaf me-2"></i>Muros Verdes
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Mapalu Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
